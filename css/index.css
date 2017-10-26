@@ -7,6 +7,11 @@ PURPOSE: Stylesheet for index-page
 
 body {
   background: #3F7D78;
+  font-family: Bookman;
+}
+
+.nav-bar{
+  background-color: #96989b;
 }
 
 h1{
@@ -14,8 +19,19 @@ h1{
   font-family: "Monotype Corsiva", "Bookman", cursive;
 }
 
-div{
+#profile{
   width: 600px;
   border: 2px solid #2B3131;
   border-radius: 25px;
+  margin: 10px auto;
+  margin-top: 50px;
+  background-color: #9CB4B3;
+  padding: 10px;
+}
+
+
+#my-education{
+  background: #50A29C;
+  margin: none;
+  padding-left: 5px;
 }
