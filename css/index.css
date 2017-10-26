@@ -12,6 +12,20 @@ body {
 
 .nav-bar{
   background-color: #96989b;
+  overflow: hidden;
+}
+
+.nav-bar a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 16px;
+  color: #276666;
+}
+
+.nav-bar a:hover{
+  color: #3b3d3d;  
 }
 
 h1{
