@@ -6,5 +6,10 @@ PURPOSE: Stylesheet for index-page
 */
 
 body {
-  background: #236863;
+  background: #3F7D78;
+}
+
+header{
+  text-align: center;
+  font-family: 'Pacifico' cursive;
 }
