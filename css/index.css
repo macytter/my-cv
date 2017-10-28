@@ -11,6 +11,19 @@ header h1{
   height: 300px;
 }
 
+header p{
+  color: white;
+  text-align: center;
+}
+
+#temporary {
+  margin: 0 25%;
+  background-color: gray;
+  width: 400x;
+  height: 60px;
+  line-height: 60px;
+}
+
 
 body {
   background-image: url("../images/woods_background.jpg");
@@ -27,8 +40,10 @@ body {
 
 .nav-bar {
   width: 150px;
-  float: right;
-  margin: 40px;
+  margin: 10px;
+  position: fixed;
+  left: 80%;
+  top: 200px;
 }
 
 .nav-bar a {
@@ -37,6 +52,7 @@ body {
   display: block;
   padding: 15px;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav-bar a:hover {
