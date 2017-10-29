@@ -75,11 +75,15 @@ h1{
   padding: 10px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
 #profile{
   margin-top: 50px;
   background-color: rgba(44, 220, 203, 0.9);
 }
-
 
 #my-education{
   background-color: rgba(183, 186, 188, 0.9);
