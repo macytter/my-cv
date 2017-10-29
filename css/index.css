@@ -82,5 +82,18 @@ h1{
 
 
 #my-education{
-  background: rgba(229, 229, 87, 0.9);
+  background-color: rgba(183, 186, 188, 0.9);
+}
+
+#experience{
+  background-color: rgba(44, 220, 203, 0.9);
+}
+
+#my-abilities{
+  background-color: rgba(183, 186, 188, 0.9);
+}
+
+#my-contact{
+  background-color: rgb(86, 91, 91);
+  color: white;
 }
