@@ -24,7 +24,6 @@ header p{
   line-height: 60px;
 }
 
-
 body {
   background-image: url("../images/woods_background.jpg");
   background-repeat: no-repeat;
@@ -32,6 +31,17 @@ body {
   background-size: cover;
   /*background: #3F7D78;*/
   font-family: Bookman;
+}
+
+#books-icon{
+  width: 60px;
+  padding-bottom: 10px;
+}
+
+.centerImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content{
@@ -44,9 +54,11 @@ body {
 
 }
 
+
+
 td:nth-child(1){
   width: 210px;
-  padding: 5px;
+  padding: 10px;
   vertical-align: top;
 }
 
