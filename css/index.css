@@ -66,6 +66,10 @@ body {
   padding-bottom: 5px;
 }
 
+#meny{
+  width: 70px;
+}
+
 td:nth-child(1){
   width: 210px;
   padding: 10px;
@@ -74,6 +78,7 @@ td:nth-child(1){
 
 td:nth-child(2){
   vertical-align: top;
+  padding-bottom: 15px;
 }
 
 .nav-bar {
