@@ -48,7 +48,7 @@ function setup() {
 
 function project1ShowMore() {
   document.getElementById("project1btnspot").innerHTML = "<button class='projectbtn' id='project1btn'>Show less</button>";
-  document.getElementById("project1").innerHTML += "<br /> Our project was buildt with React, Meteor and node.js";
+  document.getElementById("project1").innerHTML += "<br /> <br /> Our project was buildt with React, Meteor and node.js";
   document.getElementById("project1btn").addEventListener("click", reset1);
 }
 
