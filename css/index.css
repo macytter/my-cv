@@ -33,6 +33,13 @@ body {
   font-family: Bookman;
 }
 
+.projectbtn {
+  background-color: #2b2c2d;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+}
+
 .centerImage{
   padding-bottom: 10px;
   width: 60px;

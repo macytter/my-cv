@@ -47,31 +47,31 @@ function setup() {
 }
 
 function project1ShowMore() {
-  document.getElementById("project1btnspot").innerHTML = "<button id='project1btn'>Show less</button>";
+  document.getElementById("project1btnspot").innerHTML = "<button class='projectbtn' id='project1btn'>Show less</button>";
   document.getElementById("project1").innerHTML += "<br /> Our project was buildt with React, Meteor and node.js";
   document.getElementById("project1btn").addEventListener("click", reset1);
 }
 
 function project2ShowMore() {
-  document.getElementById("project2btnspot").innerHTML = "<button id='project2btn'>Show less</button>";
+  document.getElementById("project2btnspot").innerHTML = "<button class='projectbtn' id='project2btn'>Show less</button>";
   document.getElementById("project2").innerHTML += "<br /> <br /> More description to come";
   document.getElementById("project2btn").addEventListener("click", reset2);
 }
 
 function project3ShowMore() {
-  document.getElementById("project3btnspot").innerHTML = "<button id='project3btn'>Show less</button>";
+  document.getElementById("project3btnspot").innerHTML = "<button class='projectbtn' id='project3btn'>Show less</button>";
   document.getElementById("project3").innerHTML += "<br /> <br /> More description to come";
   document.getElementById("project3btn").addEventListener("click", reset3);
 }
 
 function project4ShowMore() {
-  document.getElementById("project4btnspot").innerHTML = "<button id='project4btn'>Show less</button>";
+  document.getElementById("project4btnspot").innerHTML = "<button class='projectbtn' id='project4btn'>Show less</button>";
   document.getElementById("project4").innerHTML += "<br /> <br /> More description to come";
   document.getElementById("project4btn").addEventListener("click", reset4);
 }
 
 function project5ShowMore() {
-  document.getElementById("project5btnspot").innerHTML = "<button id='project5btn'>Show less</button>";
+  document.getElementById("project5btnspot").innerHTML = "<button class='projectbtn' id='project5btn'>Show less</button>";
   document.getElementById("project5").innerHTML += "<br /> <br /> More description to come";
   document.getElementById("project5btn").addEventListener("click", reset5);
 }
@@ -82,7 +82,7 @@ function reset1() {
 	} else {
 		document.getElementById("project1").innerHTML = "";
 	}
-	document.getElementById("project1btnspot").innerHTML = "<button id='project1btn'>Read more</button>";
+	document.getElementById("project1btnspot").innerHTML = "<button class='projectbtn' id='project1btn'>Read more</button>";
 	document.getElementById("project1btn").addEventListener("click", project1ShowMore);
 }
 
@@ -92,7 +92,7 @@ function reset2() {
 	} else {
 		document.getElementById("project2").innerHTML = "";
 	}
-	document.getElementById("project2btnspot").innerHTML = "<button id='project2btn'>Read more</button>";
+	document.getElementById("project2btnspot").innerHTML = "<button class='projectbtn' id='project2btn'>Read more</button>";
 	document.getElementById("project2btn").addEventListener("click", project2ShowMore);
 }
 
@@ -102,7 +102,7 @@ function reset3() {
 	} else {
 		document.getElementById("project3").innerHTML = "";
 	}
-	document.getElementById("project3btnspot").innerHTML = "<button id='project3btn'>Read more</button>";
+	document.getElementById("project3btnspot").innerHTML = "<button class='projectbtn' id='project3btn'>Read more</button>";
 	document.getElementById("project3btn").addEventListener("click", project3ShowMore);
 }
 
@@ -112,7 +112,7 @@ function reset4() {
 	} else {
 		document.getElementById("project4").innerHTML = "";
 	}
-	document.getElementById("project4btnspot").innerHTML = "<button id='project4btn'>Read more</button>";
+	document.getElementById("project4btnspot").innerHTML = "<button class='projectbtn' id='project4btn'>Read more</button>";
 	document.getElementById("project4btn").addEventListener("click", project4ShowMore);
 }
 
@@ -122,7 +122,7 @@ function reset5() {
 	} else {
 		document.getElementById("project5").innerHTML = "";
 	}
-	document.getElementById("project5btnspot").innerHTML = "<button id='project5btn'>Read more</button>";
+	document.getElementById("project5btnspot").innerHTML = "<button class='projectbtn' id='project5btn'>Read more</button>";
 	document.getElementById("project5btn").addEventListener("click", project5ShowMore);
 }
 
