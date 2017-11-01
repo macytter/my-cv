@@ -8,7 +8,6 @@ $(window).scroll(function () {
     mn.removeClass("nav-bar-scrolled");
   }
 });
-*/
 
 window.onscroll = function() {myFunction()};
 
@@ -19,3 +18,4 @@ function myFunction() {
     console.log("WEEEEE!");
   }
 }
+*/

@@ -33,12 +33,9 @@ body {
   font-family: Bookman;
 }
 
-#books-icon{
-  width: 60px;
-  padding-bottom: 10px;
-}
-
 .centerImage{
+  padding-bottom: 10px;
+  width: 60px;
   display: block;
   margin-left: auto;
   margin-right: auto;
