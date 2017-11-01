@@ -51,7 +51,7 @@ body {
 }
 
 .chapters h1 {
-
+  padding-top: 10px;
 }
 
 
@@ -83,9 +83,14 @@ td:nth-child(1){
   background-color: #ccc;
 }
 
+.nav-bar-scrolled{
+  position: fixed;
+  top: 0;
+}
+
 
 .content{
-  margin: 0 20%;
+  margin: 0 10%;
 }
 
 h1{
@@ -94,15 +99,17 @@ h1{
 }
 
 .chapters {
-  width: 100%;
+  width: auto;
   height: auto;
   padding: 10px 0 20px 0;
   margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .sticky {
   position: fixed;
-  top: 0;
+  top: 300px;
 }
 
 #profile{
