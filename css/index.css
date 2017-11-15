@@ -139,6 +139,13 @@ h1{
   margin-right: 250px;
 }
 
+footer {
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 0;
+  margin-top: 0;
+}
+
 .sticky {
   position: fixed;
   top: 300px;
