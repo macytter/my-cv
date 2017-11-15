@@ -67,6 +67,18 @@ body {
   padding-bottom: 5px;
 }
 
+.footer-logo {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+#footer-img {
+  text-align: center;
+}
+
 #meny{
   width: 70px;
 }
