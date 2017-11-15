@@ -12,11 +12,15 @@ PURPOSE: Main page
   <title>My CV</title>
   <link rel="stylesheet" href="css/index.css" />
   <link href="https://fonts.googleapis.com/css?family=Lato|Lora" rel="stylesheet">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
   <script src="javascript/index.js"></script>
+  <script src="javascript/sticky_nav.js"></script>
 </head>
 <body>
+  <!-- header with title -->
   <header id="h-block">
     <h1>Maren Collier Ytterbø</h1>
+<!-- temporary div created to give notice to visitors about its status -->
     <div id="temporary">
       <p>
         NOTE: This page is under construction. More content, styling and animation to be added.
@@ -24,16 +28,15 @@ PURPOSE: Main page
     </div>
   </header>
 
+<!-- navigation sidebar -->
 
-<aside>
-  <div class="nav-bar">
+  <div class="nav-bar" id="sticky-nav">
     <a href="#nav-about">Profile</a>
     <a href="#nav-edu">Education</a>
     <a href="#nav-work">Work Experience</a>
     <a href="#nav-able">Abilities</a>
     <a href="#nav-contact">Contact</a>
   </div>
-</aside>
 
   <div class="chapters" id="profile">
     <div class="content" id="profile-content">
@@ -244,7 +247,7 @@ PURPOSE: Main page
           August 2012 - December 2014<br />
           Voluntarily drifted magazine attatched the institute for language and literature
           at NTNU. During my time there, I was both responsible for layout in addition
-          to be appointed editor. 
+          to be appointed editor.
         </p>
       </div>
     </div>
@@ -272,7 +275,8 @@ PURPOSE: Main page
     <address class="content">
       <p>
         E-mail: ytterbo@gmail.com <br />
-        <a href="www.linkedin.com/in/marencollierytterbo">LinkedIn</a> <br />
+        <a href="www.linkedin.com/in/marencollierytterbo"><img class="logo" src="images/linkedin-icon.png" alt="LinkedIn" /></a>
+
         <a href="https://github.com/macytter">Github</a>
       </p>
     </address>

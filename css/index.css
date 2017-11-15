@@ -48,6 +48,7 @@ body {
   margin-right: auto;
 }
 
+
 .content{
   font-family: 'Lora', serif;
   font-size: 18px;
@@ -86,7 +87,7 @@ td:nth-child(2){
   margin: 10px;
   position: fixed;
   left: 80%;
-  top: 200px;
+  top: 150px;
 }
 
 .nav-bar a {
